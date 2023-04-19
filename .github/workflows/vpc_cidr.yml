@@ -21,4 +21,4 @@ jobs:
       - name: Install boto3
         run: pip install boto3
       - name: VPC CIDRs already in-use
-        run: python aws_deployment/vpc_cidr.py # Update the path to the new Python script
+        run: python vpc_cidr.py # Update the path to the new Python script
